@@ -59,6 +59,30 @@ footer{
     
 }
 
+@media only screen and (min-width: 370px) and (max-width:430px) {
+    section #movil{
+        width: 94%;
+        font-size: 1rem;
+        margin: auto;
+    }
+    header h1{
+        font-size: 1rem;
+    }
+
+    footer div h5{
+        font-size: 1rem;
+    }
+
+    footer div a{
+        font-size: 1rem;
+    }
+    section{
+        height: 510px;
+    }
+    
+}
+
+
 @media only screen and (min-width: 720px) {
     section #movil{
         margin-left: 48px;
