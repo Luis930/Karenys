@@ -36,7 +36,7 @@ footer{
     margin: auto;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 325px) {
     section #movil{
         width: 94%;
         font-size: 1rem;
@@ -59,7 +59,7 @@ footer{
     
 }
 
-@media only screen and (min-width: 370px) and (max-width:430px) {
+@media only screen and (min-width: 350px) and (max-width:500px) {
     section #movil{
         width: 94%;
         font-size: 1rem;
@@ -77,11 +77,10 @@ footer{
         font-size: 1rem;
     }
     section{
-        height: 510px;
+        height: 500px;
     }
     
 }
-
 
 @media only screen and (min-width: 720px) {
     section #movil{
