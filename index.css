@@ -1,3 +1,7 @@
+body{
+    background-image: url('imagenes/depre.jpg');
+}
+
 .cabezera{
    font-family: cursive;
    font-size: 2.6rem;
@@ -10,18 +14,36 @@
     background-color: aqua;
     border-radius: 10px;
     border: 5px solid white;
-    height: 400px;
-
-
+    height: 420px;
+    opacity: 0.93;
 }
 
 .mediumtwo{
     background-color: pink;
     border-radius: 10px;
     border: 5px solid white;
-    height: 400px;
+    height: 420px;
     opacity: 0.8;
 }
+
+@media (width > 575px) and (width < 768px) { 
+    ul li h5{
+        font-size: 11px;
+    }
+}
+
+@media (width > 768px) and (width < 992px) { 
+    ul li h5{
+        font-size: 1rem;
+    }
+}
+
+@media (width < 576px) { 
+    ul li h5{
+        margin-top: 17px;
+    }
+}
+
 
 
 
