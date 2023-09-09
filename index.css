@@ -1,5 +1,5 @@
 body{
-    background-image: url('imagenes/depre.jpg');
+    background-image: url('depre.jpg');
 }
 
 .cabezera{
@@ -40,7 +40,7 @@ body{
 
 @media (width < 576px) { 
     ul li h5{
-        margin-top: 17px;
+        margin-top: 15px;
     }
 }
 
